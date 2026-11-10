@@ -1,0 +1,49 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Patient MRI data and medical masks
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.rar
+*.zip
+
+# Dataset folders
+MS_100_patient_preprocessed/
+MS_100_patient_masks/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# All generated outputs, experiments, checkpoints and patient-level results
+outputs/
+
+# Local logs
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+!.env.example
